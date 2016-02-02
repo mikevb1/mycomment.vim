@@ -41,30 +41,30 @@ function! s:CommentFromSelected(type, ...) range
 endfunction
 
 let s:comment_begin = {
-      \"c"          : "//",
-      \"cpp"        : "//",
-      \"css"        : "/*",
-      \"default"    : "#",
-      \"go"         : "//",
-      \"java"       : "//",
-      \"javascript" : "//",
-      \"plaintex"   : "%",
-      \"tex"        : "%",
-      \"vim"        : "\"",
-      \"markdown"   : "<!--",
-      \"xhtml"      : "<!--",
-      \"xml"        : "<!--",
-      \"html"       : "<!--",
+      \"c"          : "// ",
+      \"cpp"        : "// ",
+      \"css"        : "/* ",
+      \"default"    : "# ",
+      \"go"         : "// ",
+      \"java"       : "// ",
+      \"javascript" : "// ",
+      \"plaintex"   : "% ",
+      \"tex"        : "% ",
+      \"vim"        : "\" ",
+      \"markdown"   : "<!-- ",
+      \"xhtml"      : "<!-- ",
+      \"xml"        : "<!-- ",
+      \"html"       : "<!-- ",
       \}
 
 " (optional)
 let s:comment_end = {
-      \"css"        : "*/",
+      \"css"        : " */",
       \"default"    : "",
-      \"xhtml"      : "-->",
-      \"xml"        : "-->",
-      \"html"       : "-->",
-      \"markdown"   : "-->",
+      \"xhtml"      : " -->",
+      \"xml"        : " -->",
+      \"html"       : " -->",
+      \"markdown"   : " -->",
       \}
 
 let s:regex = '^\s*'
