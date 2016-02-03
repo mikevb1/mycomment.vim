@@ -45,6 +45,7 @@ let s:comment_begin = {
       \"cpp"        : "// ",
       \"css"        : "/* ",
       \"default"    : "# ",
+      \"python"     : "# ",
       \"go"         : "// ",
       \"java"       : "// ",
       \"javascript" : "// ",
